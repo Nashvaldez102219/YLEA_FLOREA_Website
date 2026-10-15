@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fff9f8" />
+  <meta name="description" content="Explore all 12 YLÉA FLORÉA makeup products, prices, and available shades in our enchanted garden collection." />
+  <title>The Collection | YLÉA FLORÉA</title>
+  <link rel="icon" href="assets/brand/ylea-florea-logo.webp" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/products.js" defer></script>
+  <script src="js/site.js" defer></script>
+</head>
+<body data-page="products">
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="inner-hero shop-intro">
+      <div class="container inner-hero-content">
+        <span class="eyebrow">THE YLÉA FLORÉA EDIT</span>
+        <h1>The Garden <em>Collection.</em></h1>
+        <p>From the first petal to the finishing glow, discover colors inspired by an enchanted world.</p>
+        <span class="hero-deco" aria-hidden="true">✧ &nbsp; ❀ &nbsp; ✧</span>
+      </div>
+    </section>
+    <section class="container shop-section" aria-label="Browse our makeup collection">
+      <div class="shop-toolbar-top">
+        <div class="shop-toolbar-title"><span class="eyebrow">YOUR BEAUTY, YOUR WAY</span><h2>All that <em>blooms.</em></h2><p id="product-count" aria-live="polite">12 lovely finds</p></div>
+        <label class="search-field"><span class="sr-only">Search products</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg><input id="product-search" type="search" placeholder="Search the garden…" autocomplete="off" /></label>
+      </div>
+      <div class="filter-row">
+        <div class="filter-chips" role="group" aria-label="Product category">
+          <button class="filter-chip is-active" data-category="all" aria-pressed="true">All blooms</button>
+          <button class="filter-chip" data-category="complexion" aria-pressed="false">Complexion</button>
+          <button class="filter-chip" data-category="eyes" aria-pressed="false">Eyes &amp; Brows</button>
+          <button class="filter-chip" data-category="lips" aria-pressed="false">Lips</button>
+          <button class="filter-chip filter-favorites" data-category="favorites" aria-pressed="false">♡ Saved blooms</button>
+        </div>
+        <label class="sort-field">Sort by <select id="product-sort"><option value="featured">Featured</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="name">Name: A to Z</option></select></label>
+      </div>
+      <div class="product-grid shop-grid" id="all-products"></div>
+      <div class="empty-state" id="product-empty" hidden><span aria-hidden="true">✿</span><h3>No blooms found here.</h3><p>Try a different search or explore all our makeup treasures.</p><button class="btn btn-outline" id="clear-filters">Show all products</button></div>
+      <p class="shop-note">✧ Choose shades, add to your bag, and prepare a printable shopping summary. This website does not send orders or accept payments.</p>
+    </section>
+    <section class="shop-end-cta"><div class="container"><span class="eyebrow">A LITTLE MORE WONDER</span><h2>Every flower blooms <em>differently.</em></h2><p>Find the shade that feels like you.</p><a class="btn btn-outline" href="about.html">Our Philosophy <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <div id="site-footer"></div>
+  <div id="site-overlays"></div>
+</body>
+</html>

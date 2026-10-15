@@ -1,0 +1,9 @@
+YLÉA FLORÉA — Static Website
+
+1) Extract the ZIP completely.
+2) Open index.html in Chrome, Edge, Firefox or Safari.
+3) Enter the Garden > Shop > Add to Cart or Buy Now > Create My Order Summary.
+4) Copy, download or print the local shopping summary.
+
+Pure HTML, CSS, and JavaScript. No Gmail, backend, Node.js or installation needed.
+The summary is not sent to the shop and is not proof of purchase.
